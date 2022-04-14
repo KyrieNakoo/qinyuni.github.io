@@ -2361,16 +2361,16 @@ p.timeline-content:last-child {
 .period {
   padding: 0;
 }
-.period>.timeline-info {
+.period .timeline-info {
     display: none;
 }
-.period>.timeline-content {
+.period .timeline-content {
     padding: 40px 0 70px;
 }
-.period>.timeline-title {
+.period .timeline-title {
     margin: 0;
 }
-li.period>.timeline-marker:before{
+li.period .timeline-marker:before{
   background: transparent;
   content: "";
   width: 15px;
@@ -2383,7 +2383,7 @@ li.period>.timeline-marker:before{
   border-top: 3px solid #CCD5DB;
   border-bottom: 3px solid #CCD5DB;
 }
-li.period>.timeline-marker:after{
+li.period .timeline-marker:after{
   content: "";
   height: 32px;
   top: auto;
@@ -2392,37 +2392,37 @@ li.period>.timeline-marker:after{
       MOD: TIMELINE SPLIT
   ----------------------------------------------*/
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
       .timeline.timeline-split {
          
             display: table;
-        } */
+        } 
       
-        /* .timeline-item {
+        .timeline-item {
             display: table-row;
             padding: 0;
         }
-        >.timeline-info,
-        >.timeline-marker,
-        >.timeline-content,
-        >.period >.timeline-info {
+        .timeline.timeline-split .timeline-info,
+        .timeline.timeline-split .timeline-marker,
+        .timeline.timeline-split .timeline-content,
+        .timeline.timeline-split .period .timeline-info {
             display: table-cell;
             vertical-align: top;
         }
-        >.timeline-marker {
+        .timeline.timeline-split .timeline-marker {
             position: relative;
         }
-        >.timeline-content {
+        .timeline.timeline-split .timeline-content {
             padding-left: 30px;
         }
-        >.timeline-info {
+        .timeline.timeline-split .timeline-info {
             padding-right: 30px;
         }
-        >.period .timeline-title {
+        .timeline.timeline-split .period .timeline-title {
             position: relative;
-            left: -45px;
-        } */
+            left: -200px;
+        }
   
-/* } */
+}
 
         

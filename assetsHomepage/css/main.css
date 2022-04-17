@@ -2100,7 +2100,7 @@ input, select, textarea {
 					display: none;
 				}
 
-				#nav > ul > li > a {
+				#nav > ul > li > a, #nav ul > li > a {
 					border-radius: 5px;
 					color: #5d5d5d;
 					text-decoration: none;
